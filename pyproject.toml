@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "vocab-assistant"
+version = "0.1.0"
+description = ""
+authors = ["Kirushikesh DB <kirushikesh@gmail.com>"]
+readme = "README.md"
+packages = [{include = "vocab_assistant"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "0.3.18"
+jupyter = "^1.1.1"
+langgraph = "0.2.72"
+langmem = "^0.0.16"
+python-dotenv = "1.0.1"
+langchain-openai = "^0.3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
